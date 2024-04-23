@@ -109,6 +109,10 @@ amount individually and combined.**
 total amount of donations to all the parties.**
 ![image 53](assets/54.png "Image 53")
 
+**Q1:f. [1 Pts.] Add functionality to save the displayed plots in PNG/JPEG or any other image
+format.**
+![image 69](assets/69.png "Image 69")
+
 **Q4: [3 Pts.] Create a public GitHub repo for your assignment and push all your files to it, also paste
 the screenshots of UI in the Readme file in the repository depicting answers of all the questions
 asked in 1e. Write the instructions on how to set up the website locally, and document everything
