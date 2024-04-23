@@ -4,9 +4,9 @@ i. First, convert the PDF files to CSV using FITZ. [You need to do some
 preprocessing as well for properly converting the file and to save it as CSV file.]**
 ![image 0](assets/63.png "Image 63")
 ![image 0.1](assets/64.png "Image 64")
-
-**ii. Then load these two different CSV files into two different tables in the database.**
 ![image 0](assets/65.png "Image 65")
+**ii. Then load these two different CSV files into two different tables in the database.**
+
 ![image 0.3](assets/66.png "Image 66")
 ![image 0.3](assets/67.png "Image 67")
 
