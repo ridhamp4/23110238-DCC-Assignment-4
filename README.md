@@ -5,12 +5,17 @@ preprocessing as well for properly converting the file and to save it as CSV fil
 ![image 0](assets/63.png "Image 63")
 ![image 0.1](assets/64.png "Image 64")
 
-ii. Then load these two different CSV files into two different tables in the database.**
+**ii. Then load these two different CSV files into two different tables in the database.**
+![image 0](assets/65.png "Image 65")
+![image 0.3](assets/66.png "Image 66")
+![image 0.3](assets/67.png "Image 67")
 
 **Q1:c. [4 Pts.] Create a frontend using FLASK, Bootstrap, CSS, Javascript, etc following the
 web design instructions in point 1e.**
+* Whole frontend is created in templates folder
 
 **Q1:d. [2 Pts.] Connect the front end to the database as taught in the special class.**
+![image 0.4](assets/68.png "Image 68")
 
 **Q1:e:1. Implement a robust search functionality that allows users to quickly
 search for specific records based on Bond Number or filter data based on
