@@ -182,10 +182,9 @@
       </div>
     <div>
         <canvas id="myChart1"></canvas>
+        <button id='download'> Download </button>
     </div>
     <div>
-        <canvas id="myChart2"></canvas>
-    </div>
       {%endif%}
       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -211,9 +210,17 @@
         });
       </script>
       <script>
+        function onClick(canvas) {
+          var link = document.createElement("a");
+          link.download = "download.png";
+          link.href = document.getElementById(canvas).toDataURL();
+          link.click();
+        }
+        document.getElementById('download').addEventListener('click', () => {onClick('myChart1')});
         const ctx = document.getElementById('myChart2');
         new Chart(ctx, {
           type: 'bar',
+          
           data: {
             labels: ['2019', '2020', '2021', '2022', '2023'],
             datasets: [{
