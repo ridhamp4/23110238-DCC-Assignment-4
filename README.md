@@ -1,7 +1,7 @@
 # 23110238-DCC-Assignment-4
 **Q1:b. [3 Pts.] Steps:
 i. First, convert the PDF files to CSV using FITZ. [You need to do some
-preprocessing as well for properly converting the file and to save it as CSV file.]
+preprocessing as well for properly converting the file and to save it as CSV file.]**
 ![image 0](assets/63.png "Image 63")
 ![image 0.1](assets/64.png "Image 64")
 
