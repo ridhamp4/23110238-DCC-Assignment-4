@@ -1,6 +1,23 @@
 # 23110238-DCC-Assignment-4
-**Q1: a)**
-With Purchase details:
+**Q1:b. [3 Pts.] Steps:
+i. First, convert the PDF files to CSV using FITZ. [You need to do some
+preprocessing as well for properly converting the file and to save it as CSV file.]
+![image 0](assets/63.png "Image 63")
+![image 0.1](assets/64.png "Image 64")
+
+ii. Then load these two different CSV files into two different tables in the database.**
+
+**Q1:c. [4 Pts.] Create a frontend using FLASK, Bootstrap, CSS, Javascript, etc following the
+web design instructions in point 1e.**
+
+**Q1:d. [2 Pts.] Connect the front end to the database as taught in the special class.**
+
+**Q1:e:1. Implement a robust search functionality that allows users to quickly
+search for specific records based on Bond Number or filter data based on
+any column in the table except Sr. No. and Status (e.g., date, political
+party, company name). The output should be displayed in the form of a
+table which is fetched from the database for a given query.**
+* With Purchase details:
 
 ![image 1](assets/1.png "Image 1")
 ![image 2](assets/2.png "Image 2")
@@ -58,26 +75,39 @@ With Purchase details:
 * Search by Pay Teller
 ![image 38](assets/39.png "Image 38")
 ![image 39](assets/40.png "Image 39")
-**Q1 b)**
+**Q1:e:2. The option to select a Company/Individual from a drop-down/search, and
+show how many bonds and the total value of bonds purchased per year.
+You can present a bar plot depicting your results.**
 ![image 40](assets/41.png "Image 40")
 ![image 41](assets/42.png "Image 41")
 ![image 42](assets/43.png "Image 42")
 ![image 43](assets/44.png "Image 43")
-**Q1 c)**
+**Q1:e:3. The option to select a political party from a drop-down/search, and show
+how many bonds and total value per year are in the timeline. You can
+present a bar plot depicting your results.**
 ![image 44](assets/45.png "Image 44")
 ![image 45](assets/46.png "Image 45")
 ![image 46](assets/47.png "Image 46")
-**Q1 d)**
+**Q1:e:4. The option to select a political party from a drop-down/search, shows
+which companies have donated to it and what amount individually and
+combined.**
 ![image 54](assets/55.png "Image 54")
 ![image 55](assets/56.png "Image 55")
 ![image 56](assets/57.png "Image 56")
-**Q1 e)**
+**Q1:e:5. Similarly, provide an option to select a company from a
+drop-down/search, showcasing which parties they have donated and what
+amount individually and combined.**
 ![image 50](assets/51.png "Image 50")
 ![image 51](assets/52.png "Image 51")
 ![image 52](assets/53.png "Image 52")
-**Q2 f)**
+**Q1:e:6. Apart from 1e4 and 1e5, you can also display the Pie chart depicting the
+total amount of donations to all the parties.**
 ![image 53](assets/54.png "Image 53")
 
+**Q4: [3 Pts.] Create a public GitHub repo for your assignment and push all your files to it, also paste
+the screenshots of UI in the Readme file in the repository depicting answers of all the questions
+asked in 1e. Write the instructions on how to set up the website locally, and document everything
+in the Readme.**
 ![image 57](assets/58.png "Image 57")
 ![image 58](assets/59.png "Image 58")
 ![image 59](assets/60.png "Image 59")
